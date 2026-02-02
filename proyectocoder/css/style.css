@@ -172,7 +172,7 @@ nav a {
     margin: 10px;
 }
 
-.carusel4 {
+.carousel4 {
     display: none;
 }
 
@@ -206,7 +206,7 @@ nav a {
         display: none;
     }
 
-    .carusel4 {
+    .carousel4 {
         display: block;
         text-align: center;
         width: 90%;
