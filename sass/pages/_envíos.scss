@@ -1,1 +1,51 @@
 @use "../partials/variables" as*;
+
+main {
+
+    .accordion {
+
+        .accordion-flush {
+            margin: 1%;
+
+            .accordion-button {
+                color: $fucsia;
+            }
+        }
+
+
+        .accordion-item {
+            padding-left: 3%;
+        }
+
+        .accordion-body {
+            color: $fucsia;
+        }
+    }
+
+    .parrafo4 {
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.redes {
+    a {
+        img.logo-whatsapp {
+            width: 45px;
+            height: auto;
+            padding-left: 1%;
+            background-color: $rosa;
+        }
+    }
+}
+
+a {
+    img.logo-instagram {
+        width: 45px;
+        height: auto;
+        padding-left: 1%;
+        background-color: $rosa;
+    }
+}
