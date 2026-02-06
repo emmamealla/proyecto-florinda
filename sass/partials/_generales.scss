@@ -19,7 +19,7 @@ header {
     h1 {
         color: $blanco;
         font-size: 2.2rem;
-        $fonth1;
+        font-family: $fonth1;
         font-weight: bold;
         padding-left: 3%;
     }
@@ -27,7 +27,7 @@ header {
     a {
         color: $fucsia;
         font-size: 1.5rem;
-        $fontp;
+        font-family: $fontp;
         margin: 10px;
     }
 
@@ -35,12 +35,12 @@ header {
         margin: 1%;
         width: 150px;
         height: auto;
-        background-color: $rosa
+        background-color: $rosa;
     }
 }
 
 main {
-    color: $fucsia
+    color: $fucsia;
 }
 
 footer {
@@ -53,7 +53,7 @@ footer {
     p {
         color: $fucsia;
         font-size: 1.5rem;
-        font-family: $fontp
+        font-family: $fontp;
         margin: 2%;
     }
 }
