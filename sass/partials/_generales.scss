@@ -1,1 +1,59 @@
 @use "./variables" as*;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $rosa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 1%;
+
+    h1 {
+        color: $blanco;
+        font-size: 2.2rem;
+        $fonth1;
+        font-weight: bold;
+        padding-left: 3%;
+    }
+
+    a {
+        color: $fucsia;
+        font-size: 1.5rem;
+        $fontp;
+        margin: 10px;
+    }
+
+    .logo {
+        margin: 1%;
+        width: 150px;
+        height: auto;
+        background-color: $rosa
+    }
+}
+
+main {
+    color: $fucsia
+}
+
+footer {
+    margin: 1%;
+
+    .footer {
+        background-color: $rosa;
+    }
+
+    p {
+        color: $fucsia;
+        font-size: 1.5rem;
+        font-family: $fontp
+        margin: 2%;
+    }
+}
