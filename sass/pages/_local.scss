@@ -1,1 +1,42 @@
 @use "../partials/variables" as*;
+
+main {
+
+    .parrafo2 {
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .horarios {
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .mapa {
+        text-align: center;
+    }
+}
+
+.redes {
+    a {
+        img.logowhatsapp {
+            width: 26px;
+            height: auto;
+            padding-left: 1%;
+            background-color: $rosa;
+        }
+    }
+}
+
+a {
+    img.logoinstagram {
+        width: 26px;
+        height: auto;
+        padding-left: 1%;
+        background-color: $rosa;
+    }
+}
