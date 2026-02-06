@@ -150,6 +150,39 @@ a img.logoinstagram {
   background-color: rgb(249, 202, 202);
 }
 
+main .accordion .accordion-flush {
+  margin: 1%;
+}
+main .accordion .accordion-flush .accordion-button {
+  color: #e5248e;
+}
+main .accordion .accordion-item {
+  padding-left: 3%;
+}
+main .accordion .accordion-body {
+  color: #e5248e;
+}
+main .parrafo4 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.redes a img.logo-whatsapp {
+  width: 45px;
+  height: auto;
+  padding-left: 1%;
+  background-color: rgb(249, 202, 202);
+}
+
+a img.logo-instagram {
+  width: 45px;
+  height: auto;
+  padding-left: 1%;
+  background-color: rgb(249, 202, 202);
+}
+
 @media (max-width: 480px) {
   header {
     flex-direction: row;
