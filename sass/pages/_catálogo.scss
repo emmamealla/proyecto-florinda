@@ -1,1 +1,53 @@
 @use "../partials/variables" as*;
+
+main {
+
+    .parrafo3 {
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    section.productos {
+        text-align: center;
+
+        article.productos {
+
+            h3 {
+                background-color: $rosa;
+                margin: 1%;
+                font-size: 1.875rem; 
+                padding-left: 1%;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+
+            img {
+                width: 500px;
+                height: auto;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.redes {
+    a {
+        img.logowhatsapp {
+            width: 26px;
+            height: auto;
+            padding-left: 1%;
+            background-color: $rosa;
+        }
+    }
+}
+
+a {
+    img.logoinstagram {
+        width: 26px;
+        height: auto;
+        padding-left: 1%;
+        background-color: $rosa;
+    }
+}
