@@ -11,7 +11,7 @@ main {
         margin-left: 5%;
         margin-right: 5%;
 
-        .carousel-item {
+        &-item {
         background-color: $rosa;
         display: flex;
         flex-direction: row;

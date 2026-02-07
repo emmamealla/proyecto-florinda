@@ -59,7 +59,7 @@ main .carousel {
   margin-left: 5%;
   margin-right: 5%;
 }
-main .carousel .carousel-item {
+main .carousel-item {
   background-color: rgb(249, 202, 202);
   display: flex;
   flex-direction: row;
