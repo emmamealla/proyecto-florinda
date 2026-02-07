@@ -1,5 +1,6 @@
+@use "./variables" as*;
+
 @use "./partials/generales";
-@use "./partials/variables";
 @use "./pages/index";
 @use "./pages/local";
 @use "./pages/catálogo";
