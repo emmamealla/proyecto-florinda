@@ -101,9 +101,10 @@ main .horarios {
   margin-left: 25%;
   margin-right: 25%;
   font-size: 1.3rem;
+  margin-top: 1%;
 }
 main .mapa {
-  margin-top: 1%;
+  margin-top: 2%;
   text-align: center;
 }
 
