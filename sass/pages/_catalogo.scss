@@ -14,20 +14,20 @@ main {
 
         article.productos {
 
-            h3 {
-                background-color: $rosa;
-                margin: 1%;
-                font-size: 1.875rem; 
-                padding-left: 1%;
-                margin-left: 20%;
-                margin-right: 20%;
-            }
+        h3 {
+        background-color: $rosa;
+        margin: 1%;
+        font-size: 1.875rem; 
+        padding-left: 1%;
+        margin-left: 20%;
+        margin-right: 20%;
+        }
 
-            img {
-                width: 500px;
-                height: auto;
-                text-align: center;
-            }
+        img {
+        width: 500px;
+        height: auto;
+        text-align: center;
+        }
         }
     }
 }
