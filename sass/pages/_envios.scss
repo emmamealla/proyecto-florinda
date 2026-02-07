@@ -3,23 +3,11 @@
 main {
 
     .accordion {
-
-        .accordion-item {
-        padding-left: 3%;
-        }
-
-        .accordion-body {
-        color: $fucsia;
-        }
-
-        .accordion-flush {
-        margin: 1%;
-
-        .accordion-button {
-        color: $fucsia;
-        }
-        }
-    }
+        .accordion-button,
+        .accordion-button:not(.collapsed) {
+    color: $fucsia;
+}
+}
 
     .parrafo4 {
         background-color: $rosa;

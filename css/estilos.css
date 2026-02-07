@@ -157,16 +157,8 @@ a img.logoinstagram {
   background-color: rgb(249, 202, 202);
 }
 
-main .accordion .accordion-item {
-  padding-left: 3%;
-}
-main .accordion .accordion-body {
-  color: #e5248e;
-}
-main .accordion .accordion-flush {
-  margin: 1%;
-}
-main .accordion .accordion-flush .accordion-button {
+main .accordion .accordion-button,
+main .accordion .accordion-button:not(.collapsed) {
   color: #e5248e;
 }
 main .parrafo4 {
