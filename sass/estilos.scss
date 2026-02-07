@@ -1,9 +1,9 @@
 @use "./partials/variables" as*;
 
-@use "./partials/generales";
-@use "./pages/index";
-@use "./pages/local";
-@use "./pages/catalogo";
-@use "./pages/envios";
+@use "./partials/generales" as*;
+@use "./pages/index" as*;
+@use "./pages/local" as*;
+@use "./pages/catalogo" as*;
+@use "./pages/envios" as*;
 
-@use "./partials/mediaQ";
+@use "./partials/media-q" as*;
