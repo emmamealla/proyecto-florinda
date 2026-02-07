@@ -4,7 +4,8 @@ main {
 
     .accordion {
         .accordion-button,
-        .accordion-button:not(.collapsed) {
+        .accordion-button:not(.collapsed),
+        .accordion-body {
     color: $fucsia;
 }
 }

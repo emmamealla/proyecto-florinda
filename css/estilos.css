@@ -158,7 +158,8 @@ a img.logoinstagram {
 }
 
 main .accordion .accordion-button,
-main .accordion .accordion-button:not(.collapsed) {
+main .accordion .accordion-button:not(.collapsed),
+main .accordion .accordion-body {
   color: #e5248e;
 }
 main .parrafo4 {
