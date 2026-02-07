@@ -59,6 +59,8 @@ main .parrafo1 {
   background-color: rgb(249, 202, 202);
   text-align: center;
   font-size: 1.5rem;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 main .carousel {
   margin-left: 5%;
