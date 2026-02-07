@@ -33,13 +33,19 @@ main {
 .redes {
     a {
         img.logo-whatsapp {
-        @include tamanios1;
+        width: 45px;
+        height: auto;
+        padding-left: 1%;
+        background-color: $rosa;
         }
     }
 }
 
 a {
     img.logo-instagram {
-        @include tamanios1;
+        width: 45px;
+        height: auto;
+        padding-left: 1%;
+        background-color: $rosa;
     }
 }
