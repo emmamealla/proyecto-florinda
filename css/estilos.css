@@ -87,6 +87,13 @@ main a img.logo-instagram {
   background-color: rgb(249, 202, 202);
 }
 
+@media (max-width: 480px) {
+  .carousel4 {
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+  }
+}
 main .parrafo2 {
   background-color: rgb(249, 202, 202);
   text-align: center;
@@ -213,13 +220,6 @@ a img.logo-instagram {
   }
   .carousel {
     display: none;
-  }
-  .carousel4 {
-    display: block;
-    text-align: center;
-    width: 90%;
-    max-width: 300px;
-    margin: 10px auto;
   }
   .productos img {
     width: 90%;
