@@ -28,20 +28,14 @@ main {
     .redes {
         a {
             img.logo-whatsapp {
-                width: 45px;
-                height: auto;
-                padding-left: 1%;
-                background-color: $rosa;
+            @include tamanios1;
             }
         }
     }
 
     a {
         img.logo-instagram {
-            width: 45px;
-            height: auto;
-            padding-left: 1%;
-            background-color: $rosa;
+            @include tamanios1; 
         }
     }
 }

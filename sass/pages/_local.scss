@@ -24,19 +24,13 @@ main {
 .redes {
     a {
         img.logowhatsapp {
-            width: 26px;
-            height: auto;
-            padding-left: 1%;
-            background-color: $rosa;
+            @include tamanios;
         }
     }
 }
 
 a {
     img.logoinstagram {
-        width: 26px;
-        height: auto;
-        padding-left: 1%;
-        background-color: $rosa;
+        @include tamanios;
     }
 }
