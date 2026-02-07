@@ -8,15 +8,15 @@ main {
         font-size: 1.5rem;
     }
 
-    #carouselExample {
+    .carousel {
     margin-left: 5%;
     margin-right: 5%;
+    background-color: $rosa;
+        .carousel-item {
+    img {   
+    margin: 0 auto;
+    justify-content: center;
     }
-
-    .carousel-item {
-    img {
-    display: block;   
-    margin: 0 auto;   
     }
 
     }

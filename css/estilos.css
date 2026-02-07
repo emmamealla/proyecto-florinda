@@ -60,13 +60,14 @@ main .parrafo1 {
   text-align: center;
   font-size: 1.5rem;
 }
-main #carouselExample {
+main .carousel {
   margin-left: 5%;
   margin-right: 5%;
+  background-color: rgb(249, 202, 202);
 }
-main .carousel-item img {
-  display: block;
+main .carousel .carousel-item img {
   margin: 0 auto;
+  justify-content: center;
 }
 main .carousel4 {
   display: none;
