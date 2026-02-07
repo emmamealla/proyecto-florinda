@@ -38,13 +38,11 @@ main {
   color: #e5248e;
 }
 
-footer {
+.footer {
   margin: 1%;
-}
-footer .footer {
   background-color: rgb(249, 202, 202);
 }
-footer p {
+.footer p {
   color: #e5248e;
   font-size: 1.5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
