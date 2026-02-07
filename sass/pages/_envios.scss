@@ -4,21 +4,20 @@ main {
 
     .accordion {
 
-        .accordion-flush {
-        margin: 1%;
-
-        .accordion-button {
-        color: $fucsia;
-        }
-        }
-
-
         .accordion-item {
         padding-left: 3%;
         }
 
         .accordion-body {
         color: $fucsia;
+        }
+
+        .accordion-flush {
+        margin: 1%;
+
+        .accordion-button {
+        color: $fucsia;
+        }
         }
     }
 
