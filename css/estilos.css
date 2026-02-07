@@ -162,6 +162,9 @@ main .accordion .accordion-button:not(.collapsed),
 main .accordion .accordion-body {
   color: #e5248e;
 }
+main .accordion {
+  margin: 1%;
+}
 main .parrafo4 {
   background-color: rgb(249, 202, 202);
   text-align: center;
