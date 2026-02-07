@@ -42,6 +42,12 @@ main {
   margin: 1%;
   background-color: rgb(249, 202, 202);
 }
+.footer a {
+  color: #e5248e;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 10px;
+}
 .footer p {
   color: #e5248e;
   font-size: 1.5rem;
@@ -52,7 +58,7 @@ main {
 main .parrafo1 {
   background-color: rgb(249, 202, 202);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main .carousel {
   margin-left: 5%;
@@ -87,6 +93,7 @@ main .parrafo2 {
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
+  font-size: 1.5rem;
 }
 main .horarios {
   background-color: rgb(249, 202, 202);
@@ -117,6 +124,7 @@ main .parrafo3 {
   text-align: center;
   margin-left: 13%;
   margin-right: 13%;
+  font-size: 1.5rem;
 }
 main section.productos {
   text-align: center;
@@ -166,6 +174,7 @@ main .parrafo4 {
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
+  font-size: 1.5rem;
 }
 
 .redes a img.logo-whatsapp {

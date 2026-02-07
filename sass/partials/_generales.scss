@@ -46,6 +46,12 @@ main {
 .footer {
     margin: 1%;
     background-color: $rosa;
+        a {
+        color: $fucsia;
+        font-size: 1.2rem;
+        font-family: $fontp;
+        margin: 10px;
+    }
         p {
         color: $fucsia;
         font-size: 1.5rem;
