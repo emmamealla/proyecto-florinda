@@ -54,6 +54,18 @@ main {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 2%;
 }
+.footer .cursiva {
+  color: #e5248e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.98rem;
+  margin: 2%;
+}
+.footer .cursiva2 {
+  color: #e5248e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.98rem;
+  margin: 2%;
+}
 
 main .parrafo1 {
   background-color: rgb(249, 202, 202);
