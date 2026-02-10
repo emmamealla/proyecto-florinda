@@ -58,7 +58,35 @@ main {
 main .parrafo1 {
   background-color: rgb(249, 202, 202);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+main .parrafo5 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+main .parrafo6 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+main .parrafo7 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+main .parrafo8 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  font-size: 1rem;
   margin-left: 3%;
   margin-right: 3%;
 }
