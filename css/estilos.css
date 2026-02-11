@@ -139,12 +139,12 @@ main a img.logo-instagram {
     height: auto;
     margin: 0% auto;
   }
-  main .redes .a .img.logo-whatsapp {
+  main .redes a img.logo-whatsapp {
     width: 30px;
     height: auto;
   }
-  main .redes .a .img.logo-instagram {
-    width: 30;
+  main .redes a img.logo-instagram {
+    width: 30px;
     height: auto;
   }
 }
@@ -208,14 +208,6 @@ a img.logoinstagram {
   .mapa iframe {
     height: 220px;
   }
-  main .redes .a .img.logowhatsapp {
-    width: 18px;
-    height: auto;
-  }
-  main .redes .a .img.logoinstagram {
-    width: 18px;
-    height: auto;
-  }
 }
 main .parrafo3 {
   background-color: rgb(249, 202, 202);
@@ -270,14 +262,6 @@ a img.logoinstagram {
     width: 90%;
     height: auto;
   }
-  main .redes .a .img.logowhatsapp {
-    width: 18px;
-    height: auto;
-  }
-  main .redes .a .img.logoinstagram {
-    width: 18px;
-    height: auto;
-  }
 }
 main .accordion .accordion-button,
 main .accordion .accordion-button:not(.collapsed),
@@ -318,12 +302,12 @@ a img.logo-instagram {
   main .parrafo4 {
     font-size: 1.1rem;
   }
-  main .redes .a .img.logo-whatsapp {
+  main .redes a img.logo-whatsapp {
     width: 30px;
     height: auto;
   }
-  main .redes .a .img.logo-instagram {
-    width: 30;
+  main .redes a img.logo-instagram {
+    width: 30px;
     height: auto;
   }
 }
