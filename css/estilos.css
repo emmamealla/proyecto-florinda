@@ -239,7 +239,7 @@ a img.logoinstagram {
 }
 
 @media (max-width: 480px) {
-  .productos h3 {
+  section.productos article.productos h3 {
     font-size: 1.2rem;
   }
 }

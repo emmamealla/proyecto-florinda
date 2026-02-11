@@ -56,9 +56,11 @@ a {
 }
 
 @media (max-width: 480px) {
-.productos {
-    h3 {
-    font-size: 1.2rem;
+    section.productos{
+        article.productos {
+        h3 {
+        font-size: 1.2rem;
     }
-}
+        }
+    }
 }
