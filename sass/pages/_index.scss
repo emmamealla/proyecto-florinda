@@ -88,10 +88,12 @@ main {
 
 @media (max-width: 480px) {
 
-.carousel4 {
+main {
+    .carousel4 {
     display: block;
     width: 90%;
     height: auto;
+    margin: 0% auto;
 }
-
+}
 }

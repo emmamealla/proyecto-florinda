@@ -133,10 +133,11 @@ main a img.logo-instagram {
 }
 
 @media (max-width: 480px) {
-  .carousel4 {
+  main .carousel4 {
     display: block;
     width: 90%;
     height: auto;
+    margin: 0% auto;
   }
 }
 main .parrafo2 {
@@ -182,14 +183,11 @@ a img.logoinstagram {
 }
 
 @media (max-width: 480px) {
-  .parrafo2 {
-    font-size: 1.1rem;
-  }
   .horarios {
     padding: 0 15px;
   }
   .horarios p {
-    font-size: 13px;
+    font-size: 0.8rem;
     margin-bottom: 6px;
   }
   .mapa {
