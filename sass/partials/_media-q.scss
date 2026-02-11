@@ -41,4 +41,33 @@
         display: block;
         }
     }
+
+.footer {
+    margin: 2%;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1rem;
+    padding-left: 0;
+}
+
+.footer a {
+    font-size: 0.95rem;
+}
+
+.footer .cursiva,
+.footer .cursiva2 {
+    font-size: 0.8rem;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.footer img.logowhatsapp,
+.footer img.logoinstagram {
+    width: 20px;
+    height: auto;
+}
+
 }
