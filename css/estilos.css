@@ -183,9 +183,9 @@ a img.logoinstagram {
 
 @media (max-width: 480px) {
   .parrafo2 {
-    font-size: 14px;
-    padding: 0 15px;
-    text-align: center;
+    font-size: 1.1rem;
+    margin: 0 20px;
+    padding: 12px;
   }
   .horarios {
     padding: 0 15px;
