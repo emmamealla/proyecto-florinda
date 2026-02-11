@@ -46,3 +46,20 @@ a {
         background-color: $rosa;
     }
 }
+
+@media (max-width: 480px) {
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.mapa iframe {
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+}

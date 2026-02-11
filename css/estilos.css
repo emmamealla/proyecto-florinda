@@ -175,6 +175,19 @@ a img.logoinstagram {
   background-color: rgb(249, 202, 202);
 }
 
+@media (max-width: 480px) {
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .mapa iframe {
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
 main .parrafo3 {
   background-color: rgb(249, 202, 202);
   text-align: center;
