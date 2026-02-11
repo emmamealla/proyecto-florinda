@@ -183,11 +183,14 @@ a img.logoinstagram {
 }
 
 @media (max-width: 480px) {
+  main .parrafo2 {
+    font-size: 1.1rem;
+  }
   .horarios {
     padding: 0 15px;
   }
   .horarios p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 6px;
   }
   .mapa {
@@ -239,8 +242,11 @@ a img.logoinstagram {
 }
 
 @media (max-width: 480px) {
+  main .parrafo3 {
+    font-size: 1.1rem;
+  }
   main section.productos article.productos h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -280,6 +286,11 @@ a img.logo-instagram {
   background-color: rgb(249, 202, 202);
 }
 
+@media (max-width: 480px) {
+  main .parrafo4 {
+    font-size: 1.1rem;
+  }
+}
 @media (max-width: 480px) {
   header {
     flex-direction: row;

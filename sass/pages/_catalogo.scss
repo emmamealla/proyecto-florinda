@@ -56,8 +56,13 @@ a {
 }
 
 @media (max-width: 480px) {
+
+main .parrafo3 {
+    font-size: 1.1rem;
+}
+
 main section.productos article.productos h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 5%;
     margin-right: 5%;
 }
