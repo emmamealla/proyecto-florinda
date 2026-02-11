@@ -119,14 +119,14 @@ main .carousel .carousel-item img {
 main .carousel4 {
   display: none;
 }
-main .redes a img.logo-whatsapp {
-  width: 45px;
+main .redes a img.logowhatsapp {
+  width: 26px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(249, 202, 202);
 }
-main a img.logo-instagram {
-  width: 45px;
+main a img.logoinstagram {
+  width: 26px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(249, 202, 202);
@@ -138,14 +138,6 @@ main a img.logo-instagram {
     width: 90%;
     height: auto;
     margin: 0% auto;
-  }
-  main .redes a img.logo-whatsapp {
-    width: 30px;
-    height: auto;
-  }
-  main .redes a img.logo-instagram {
-    width: 30px;
-    height: auto;
   }
 }
 main .parrafo2 {
@@ -280,15 +272,15 @@ main .parrafo4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.redes a img.logo-whatsapp {
-  width: 45px;
+.redes a img.logowhatsapp {
+  width: 26px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(249, 202, 202);
 }
 
-a img.logo-instagram {
-  width: 45px;
+a img.logoinstagram {
+  width: 26px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(249, 202, 202);
@@ -301,14 +293,6 @@ a img.logo-instagram {
   }
   main .parrafo4 {
     font-size: 1.1rem;
-  }
-  main .redes a img.logo-whatsapp {
-    width: 30px;
-    height: auto;
-  }
-  main .redes a img.logo-instagram {
-    width: 30px;
-    height: auto;
   }
 }
 @media (max-width: 480px) {
