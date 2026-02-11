@@ -337,7 +337,12 @@ a img.logo-instagram {
   .footer a {
     font-size: 0.95rem;
   }
-  .footer .cursiva,
+  .footer .cursiva {
+    font-size: 0.8rem;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
   .footer .cursiva2 {
     font-size: 0.8rem;
     padding-left: 0;
