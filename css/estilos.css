@@ -183,14 +183,16 @@ a img.logoinstagram {
 
 @media (max-width: 480px) {
   .parrafo2 {
-    font-size: 1.1rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-size: 14px;
+    padding: 0 15px;
+    text-align: center;
   }
   .horarios {
-    font-size: 1rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 0 15px;
+  }
+  .horarios p {
+    font-size: 13px;
+    margin-bottom: 6px;
   }
   .mapa {
     width: 90%;
