@@ -22,6 +22,19 @@ header {
         font-family: $fonth1;
         font-weight: bold;
         padding-left: 3%;
+        animation-name: titulo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+    }
+
+    @keyframes titulo {
+        from {
+        color: $blanco;
+        }
+        to {
+        color: $fucsia;
+        }
     }
 
     a {
@@ -71,3 +84,5 @@ main {
         }
 
 }
+
+
