@@ -239,10 +239,14 @@ a img.logoinstagram {
 }
 
 @media (max-width: 480px) {
-  section.productos article.productos h3 {
+  main section.productos article.productos h3 {
     font-size: 1.2rem;
     margin-left: 5%;
     margin-right: 5%;
+  }
+  main section.productos article.productos img {
+    width: 90%;
+    height: auto;
   }
 }
 main .accordion .accordion-button,
