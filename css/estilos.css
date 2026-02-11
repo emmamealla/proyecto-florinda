@@ -241,6 +241,8 @@ a img.logoinstagram {
 @media (max-width: 480px) {
   section.productos article.productos h3 {
     font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 main .accordion .accordion-button,
