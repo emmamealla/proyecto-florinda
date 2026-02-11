@@ -50,16 +50,15 @@ a {
 @media (max-width: 480px) {
 
 .mapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+    width: 100%;
+    padding: 0 15px; // espacio a los costados
+    box-sizing: border-box;
 }
 
 .mapa iframe {
-    width: 90%;
-    height: 250px;
-    border-radius: 10px;
+    width: 100%;
+    height: 220px;
+    display: block;
 }
 
 }
