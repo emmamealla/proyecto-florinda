@@ -190,7 +190,8 @@ a img.logoinstagram {
   .horarios {
     width: 85%;
     margin: 15px auto;
-    padding: 0 15px;
+    padding: 12px;
+    text-align: center;
   }
   .horarios p {
     font-size: 13px;
