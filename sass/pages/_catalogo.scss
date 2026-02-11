@@ -54,3 +54,11 @@ a {
         background-color: $rosa;
     }
 }
+
+@media (max-width: 480px) {
+.productos {
+    h3 {
+    font-size: 1.2rem;
+    }
+}
+}

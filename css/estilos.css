@@ -238,6 +238,11 @@ a img.logoinstagram {
   background-color: rgb(249, 202, 202);
 }
 
+@media (max-width: 480px) {
+  .productos h3 {
+    font-size: 1.2rem;
+  }
+}
 main .accordion .accordion-button,
 main .accordion .accordion-button:not(.collapsed),
 main .accordion .accordion-body {
