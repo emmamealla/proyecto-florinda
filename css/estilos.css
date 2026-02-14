@@ -278,8 +278,6 @@ main .info-envios h2 {
 main .info-envios p {
   background-color: rgb(249, 202, 202);
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
   font-size: 1.2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -333,6 +331,12 @@ a img.logoinstagram {
   }
   main .parrafo4 {
     font-size: 1.1rem;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  main .info-envios p {
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
 @media (max-width: 480px) {
