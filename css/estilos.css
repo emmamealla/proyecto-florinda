@@ -143,6 +143,7 @@ main a img.logoinstagram {
 @media (max-width: 480px) {
   main .redes a img.logowhatsapp {
     padding-left: 0%;
+    width: 24px;
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
@@ -200,6 +201,7 @@ a img.logoinstagram {
   }
   .redes a img.logowhatsapp {
     padding-left: 0%;
+    width: 24px;
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
@@ -262,6 +264,7 @@ a img.logoinstagram {
   }
   .redes a img.logowhatsapp {
     padding-left: 0%;
+    width: 24px;
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
@@ -346,6 +349,7 @@ a img.logoinstagram {
   }
   .redes a img.logowhatsapp {
     padding-left: 0%;
+    width: 24px;
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
