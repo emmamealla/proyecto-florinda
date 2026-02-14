@@ -41,7 +41,7 @@ header a {
 }
 header .logo {
   margin: 1%;
-  width: 150px;
+  width: 100px;
   height: auto;
   background-color: rgb(249, 202, 202);
 }
@@ -338,7 +338,6 @@ a img.logoinstagram {
     display: block;
   }
   .footer {
-    margin: 2%;
     text-align: center;
   }
   .footer p {
