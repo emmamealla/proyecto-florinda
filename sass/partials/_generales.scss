@@ -14,14 +14,13 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-    margin: 1%;
 
     h1 {
         color: $blanco;
         font-size: 2.5rem;
         font-family: $fonth1;
         font-weight: bold;
-        padding-left: 3%;
+        padding-left: 1.5%;
         animation-name: titulo;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -58,7 +57,6 @@ main {
 }
 
 .footer {
-    margin: 1%;
     background-color: $rosa;
         a {
         color: $fucsia;
