@@ -299,7 +299,10 @@ main .condiciones h2 {
   font-size: 1.8rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-main .condiciones ul li {
+main .condiciones ul {
+  background-color: rgb(249, 202, 202);
+}
+main .condiciones li {
   background-color: rgb(249, 202, 202);
   font-size: 1rem;
 }

@@ -39,7 +39,9 @@ main {
         font-size: 1.8rem;
         font-family: $fontp;
         }
-        ul li{
+        ul {
+        background-color: $rosa;
+        } li{
         background-color: $rosa;
         font-size: 1rem;
         }
