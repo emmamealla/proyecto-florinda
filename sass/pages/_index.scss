@@ -64,7 +64,7 @@ main {
     .redes {
         a {
         img.logowhatsapp {
-        width: 26px;
+        width: 32px;
         height: auto;
         padding-left: 1%;
         background-color: $rosahf;
@@ -74,7 +74,7 @@ main {
 
     a {
         img.logoinstagram {
-        width: 26px;
+        width: 32px;
         height: auto;
         padding-left: 1%;
         background-color: $rosahf;
@@ -91,6 +91,7 @@ main .redes a img.logowhatsapp {
 
 .redes a img.logoinstagram {
     padding-left: 0%;
+    width: 24px;
 }
 
 main {

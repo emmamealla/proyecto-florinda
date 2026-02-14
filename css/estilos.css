@@ -128,13 +128,13 @@ main .carousel4 {
   display: none;
 }
 main .redes a img.logowhatsapp {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
 }
 main a img.logoinstagram {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
@@ -147,6 +147,7 @@ main a img.logoinstagram {
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
+    width: 24px;
   }
   main .carousel4 {
     display: block;
@@ -180,14 +181,14 @@ main .mapa iframe {
 }
 
 .redes a img.logowhatsapp {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
 }
 
 a img.logoinstagram {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
@@ -203,6 +204,7 @@ a img.logoinstagram {
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
+    width: 24px;
   }
   .horarios {
     padding: 0 15px;
@@ -243,14 +245,14 @@ main section.catalogo article.productos img {
 }
 
 .redes a img.logowhatsapp {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
 }
 
 a img.logoinstagram {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
@@ -266,6 +268,7 @@ a img.logoinstagram {
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
+    width: 24px;
   }
   main section.productos article.productos h3 {
     background-color: rgb(249, 202, 202);
@@ -328,14 +331,14 @@ main .parrafo4 {
 }
 
 .redes a img.logowhatsapp {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
 }
 
 a img.logoinstagram {
-  width: 26px;
+  width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
@@ -372,6 +375,7 @@ a img.logoinstagram {
   }
   .redes a img.logoinstagram {
     padding-left: 0%;
+    width: 24px;
   }
   main .info-envios p {
     margin-left: 3%;
