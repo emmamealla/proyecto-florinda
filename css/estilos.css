@@ -225,10 +225,10 @@ main .parrafo3 {
   font-size: 1.4rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-main section.productos {
+main section.catalogo {
   text-align: center;
 }
-main section.productos article.productos h3 {
+main section.catalogo article.productos h3 {
   background-color: rgb(249, 202, 202);
   margin: 1%;
   font-size: 1.875rem;
@@ -236,7 +236,7 @@ main section.productos article.productos h3 {
   margin-right: 20%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-main section.productos article.productos img {
+main section.catalogo article.productos img {
   width: 500px;
   height: auto;
   text-align: center;
@@ -278,6 +278,13 @@ a img.logoinstagram {
     width: 90%;
     height: auto;
     text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
 }
 main .info-envios h2 {

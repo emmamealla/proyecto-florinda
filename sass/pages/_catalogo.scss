@@ -9,7 +9,7 @@ main {
         font-family: $fontp;
     }
 
-    section.productos {
+    section.catalogo {
         text-align: center;
 
         article.productos {
@@ -83,4 +83,13 @@ main section.productos article.productos img {
 
 }
 
+@media (min-width: 1024px) {
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+}
 
