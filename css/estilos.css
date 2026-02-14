@@ -299,9 +299,6 @@ main .condiciones h2 {
   font-size: 1.8rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-main .condiciones .envios-condiciones {
-  background-color: rgb(249, 202, 202);
-}
 main .condiciones ul li {
   background-color: rgb(249, 202, 202);
   font-size: 1rem;
