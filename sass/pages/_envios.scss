@@ -37,9 +37,12 @@ main {
         font-size: 1.8rem;
         font-family: $fontp;
         }
-        ul li{
+        ul {
         background-color: $rosa;
         font-size: 1rem;
+        font-family: $fontp;
+        list-style: none;
+        padding-left: 0%;
         }
     }
 
