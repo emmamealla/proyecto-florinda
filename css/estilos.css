@@ -342,7 +342,7 @@ a img.logoinstagram {
 
 @media (max-width: 480px) {
   main .info-envios h2 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   main .info-envios p {
     font-size: 1rem;
@@ -350,11 +350,11 @@ a img.logoinstagram {
     margin-right: 0%;
   }
   main .condiciones h2 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   main .condiciones ul {
     font-size: 1rem;
-    margin: 2px;
+    margin: 15px;
   }
   main .accordion {
     width: 85%;
