@@ -118,8 +118,6 @@ main .parrafo8 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 main .carousel {
-  margin-left: 5%;
-  margin-right: 5%;
   background-color: rgb(249, 202, 202);
 }
 main .carousel .carousel-item img {
