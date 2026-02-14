@@ -130,15 +130,23 @@ main .carousel4 {
 main .redes a img.logowhatsapp {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 main a img.logoinstagram {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 @media (max-width: 480px) {
+  main .redes a img.logowhatsapp {
+    padding-left: 0%;
+  }
+  .redes a img.logoinstagram {
+    padding-left: 0%;
+  }
   main .carousel4 {
     display: block;
     width: 90%;
@@ -175,18 +183,26 @@ main .mapa iframe {
 .redes a img.logowhatsapp {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 a img.logoinstagram {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 @media (max-width: 480px) {
   main .parrafo2 {
     font-size: 1.1rem;
+  }
+  .redes a img.logowhatsapp {
+    padding-left: 0%;
+  }
+  .redes a img.logoinstagram {
+    padding-left: 0%;
   }
   .horarios {
     padding: 0 15px;
@@ -229,18 +245,26 @@ main section.productos article.productos img {
 .redes a img.logowhatsapp {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 a img.logoinstagram {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 @media (max-width: 480px) {
   main .parrafo3 {
     font-size: 1.1rem;
+  }
+  .redes a img.logowhatsapp {
+    padding-left: 0%;
+  }
+  .redes a img.logoinstagram {
+    padding-left: 0%;
   }
   main section.productos article.productos h3 {
     background-color: rgb(249, 202, 202);
@@ -299,13 +323,15 @@ main .parrafo4 {
 .redes a img.logowhatsapp {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 a img.logoinstagram {
   width: 26px;
   height: auto;
-  background-color: rgb(249, 202, 202);
+  padding-left: 1%;
+  background-color: rgb(239, 168, 169);
 }
 
 @media (max-width: 480px) {
@@ -317,6 +343,12 @@ a img.logoinstagram {
     font-size: 1.1rem;
     margin-left: 3%;
     margin-right: 3%;
+  }
+  .redes a img.logowhatsapp {
+    padding-left: 0%;
+  }
+  .redes a img.logoinstagram {
+    padding-left: 0%;
   }
   main .info-envios p {
     margin-left: 3%;

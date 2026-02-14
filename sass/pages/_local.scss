@@ -38,7 +38,8 @@ main {
         img.logowhatsapp {
         width: 26px;
         height: auto;
-        background-color: $rosa;
+        padding-left: 1%;
+        background-color: $rosahf;
         }
     }
 }
@@ -47,7 +48,8 @@ a {
     img.logoinstagram {
         width: 26px;
         height: auto;
-        background-color: $rosa;
+        padding-left: 1%;
+        background-color: $rosahf;
     }
 }
 
@@ -55,6 +57,14 @@ a {
 
 main .parrafo2 {
     font-size: 1.1rem;
+}
+
+.redes a img.logowhatsapp {
+    padding-left: 0%;
+}
+
+.redes a img.logoinstagram {
+    padding-left: 0%;
 }
 
 .horarios {
