@@ -2,6 +2,25 @@
 
 main {
 
+    .info-envios{
+        h2 {
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1.8rem;
+        font-family: $fontp;
+    }
+        p{
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1.2rem;
+        font-family: $fontp;
+        }
+    }
+
     .accordion {
         .accordion-button,
         .accordion-button:not(.collapsed),
@@ -10,6 +29,17 @@ main {
 }
     margin: 1%;
 }
+
+    .condiciones{
+        h2{
+        background-color: $rosa;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1.8rem;
+        font-family: $fontp;
+        }
+    }
 
     .parrafo4 {
         background-color: $rosa;

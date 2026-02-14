@@ -55,6 +55,7 @@ main {
 }
 .footer a {
   color: #e5248e;
+  background-color: rgb(239, 168, 169);
   font-size: 1.2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 4px 0;
@@ -266,6 +267,22 @@ a img.logoinstagram {
     height: auto;
   }
 }
+main .info-envios h2 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.8rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .info-envios p {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 main .accordion .accordion-button,
 main .accordion .accordion-button:not(.collapsed),
 main .accordion .accordion-body {
@@ -273,6 +290,14 @@ main .accordion .accordion-body {
 }
 main .accordion {
   margin: 1%;
+}
+main .condiciones h2 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.8rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 main .parrafo4 {
   background-color: rgb(249, 202, 202);
