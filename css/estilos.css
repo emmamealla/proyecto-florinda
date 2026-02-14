@@ -285,8 +285,6 @@ a img.logoinstagram {
 main .info-envios h2 {
   background-color: rgb(249, 202, 202);
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
   font-size: 1.8rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -354,7 +352,7 @@ a img.logoinstagram {
   }
   main .condiciones ul {
     font-size: 1rem;
-    margin: 15px;
+    margin: 12px;
   }
   main .accordion {
     width: 85%;
