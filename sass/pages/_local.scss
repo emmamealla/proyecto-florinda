@@ -57,6 +57,25 @@ main .parrafo2 {
     font-size: 1.1rem;
 }
 
+main .contenedor-ubicacion {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+padding: 2rem;
+}
+
+.mapa,
+.imagen-local {
+flex: 1; 
+}
+
+.imagen-local img {
+width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
 .redes a img.logowhatsapp {
     padding-left: 0%;
     width: 28px;
@@ -73,15 +92,6 @@ main .parrafo2 {
 .horarios p {
     font-size: 1rem;
     margin-bottom: 6px;
-}
-
-.mapa {
-    width: 90%;
-    margin: 10px auto;
-}
-
-.mapa iframe {
-    height: 220px;
 }
 
 }
