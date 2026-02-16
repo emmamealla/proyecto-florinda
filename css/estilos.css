@@ -168,15 +168,29 @@ main .horarios {
   margin-top: 1%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+main .contenedor-ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
 main .mapa {
-  width: 100%;
-  max-width: 800px;
-  margin: 40px auto;
+  width: 55%;
 }
 main .mapa iframe {
   width: 100%;
   height: 400px;
-  display: block;
+  border-radius: 10px;
+}
+main .local1 {
+  width: 45%;
+}
+main .local1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .redes a img.logowhatsapp {
@@ -197,22 +211,22 @@ a img.logoinstagram {
   main .parrafo2 {
     font-size: 1.1rem;
   }
-  main .contenedor-ubicacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem;
+}
+@media (max-width: 480px) and (max-width: 480px) {
+  .contenedor-ubicacion {
+    flex-direction: column;
+    padding: 1rem;
   }
   .mapa,
-  .imagen-local {
-    flex: 1;
-  }
-  .imagen-local img {
+  .local1 {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
   }
+  .mapa iframe,
+  .local1 {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
   .redes a img.logowhatsapp {
     padding-left: 0%;
     width: 28px;
