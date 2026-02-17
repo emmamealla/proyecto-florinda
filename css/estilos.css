@@ -204,6 +204,17 @@ a img.logoinstagram {
   .mapa iframe {
     height: 220px;
   }
+  .local {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .local1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   .redes a img.logowhatsapp {
     padding-left: 0%;
     width: 28px;
@@ -217,6 +228,12 @@ a img.logoinstagram {
   .horarios p {
     font-size: 1rem;
     margin-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  .local {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
 main .parrafo3 {
