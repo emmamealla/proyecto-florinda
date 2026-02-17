@@ -49,7 +49,7 @@ main {
         font-family: $fontp;
     }
 
-    .envios .img-envios{
+    .img-envios{
         display: none;
     }
 }
@@ -107,13 +107,13 @@ main .parrafo4 {
     margin-right: 3%;
 }
 
-main .envios .img-envios{
-    display: block;
-    width: 85%;  
-    max-width: 350px;   
-    margin: 20px auto;   
-    height: auto;
-}
+.img-envios {
+        display: block;
+        width: 85%;
+        max-width: 350px;
+        margin: 20px auto;
+        height: auto;
+    }
 
 .redes a img.logowhatsapp {
     padding-left: 0%;
