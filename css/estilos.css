@@ -183,6 +183,7 @@ main .local {
   grid-template-columns: 1fr;
   gap: 2rem;
   width: 100%;
+  margin-bottom: 60px;
 }
 main .local1 img {
   width: 100%;
@@ -354,6 +355,9 @@ main .parrafo4 {
   font-size: 1.2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+main .envios .envios1 img {
+  display: none;
+}
 
 .redes a img.logowhatsapp {
   width: 32px;
@@ -393,6 +397,13 @@ a img.logoinstagram {
     font-size: 1.1rem;
     margin-left: 3%;
     margin-right: 3%;
+  }
+  main .envios .envios1 img {
+    display: block;
+    width: 85%;
+    max-width: 350px;
+    margin: 20px auto;
+    height: auto;
   }
   .redes a img.logowhatsapp {
     padding-left: 0%;
