@@ -171,6 +171,7 @@ main .horarios {
 main .mapa {
   width: 100%;
   margin: 0;
+  max-width: none;
 }
 main .mapa iframe {
   width: 100%;
