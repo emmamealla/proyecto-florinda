@@ -170,8 +170,7 @@ main .horarios {
 }
 main .mapa {
   width: 100%;
-  max-width: 800px;
-  margin: 40px auto;
+  margin: 0;
 }
 main .mapa iframe {
   width: 100%;
@@ -182,6 +181,7 @@ main .local {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  width: 100%;
 }
 main .local1 img {
   width: 100%;
@@ -245,10 +245,6 @@ a img.logoinstagram {
   .local {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-  .local1 img {
-    height: 350px;
-    object-fit: cover;
   }
 }
 main .parrafo3 {
