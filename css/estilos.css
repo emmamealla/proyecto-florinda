@@ -188,7 +188,6 @@ main .local1 img {
   width: 100%;
   height: 350px;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 .redes a img.logowhatsapp {
