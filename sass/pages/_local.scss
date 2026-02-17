@@ -115,7 +115,7 @@ main .parrafo2 {
 
 @media (min-width: 1024px) {
 
-    .local {
+    main .local {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
