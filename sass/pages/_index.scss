@@ -62,24 +62,27 @@ main {
     }
 
     .redes {
-        a {
-        img.logowhatsapp {
-        width: 32px;
-        height: auto;
-        padding-left: 1%;
-        background-color: $rosahf;
-        }
-        }
-    }
 
     a {
-        img.logoinstagram {
+
+        .icono {
         width: 32px;
         height: auto;
         padding-left: 1%;
         background-color: $rosahf;
     }
+
+    .logowhatsapp {
+    @extend .icono;
     }
+
+    .logoinstagram {
+    @extend .icono;
+    }
+
+    }
+}
+
 }
 
 @media (max-width: 480px) {

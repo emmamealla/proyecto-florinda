@@ -127,19 +127,12 @@ main .carousel .carousel-item img {
 main .carousel4 {
   display: none;
 }
-main .redes a img.logowhatsapp {
+main .redes a .icono, main .redes a .logoinstagram, main .redes a .logowhatsapp {
   width: 32px;
   height: auto;
   padding-left: 1%;
   background-color: rgb(239, 168, 169);
 }
-main a img.logoinstagram {
-  width: 32px;
-  height: auto;
-  padding-left: 1%;
-  background-color: rgb(239, 168, 169);
-}
-
 @media (max-width: 480px) {
   main .redes a img.logowhatsapp {
     padding-left: 0%;
