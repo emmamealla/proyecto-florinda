@@ -363,13 +363,13 @@ main .pagos ul {
   list-style: none;
   padding-left: 1%;
 }
-main .pagos .especiales h2 {
+main .especiales h2 {
   background-color: rgb(249, 202, 202);
   text-align: center;
   font-size: 1.8rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-main .pagos .especiales ul {
+main .especiales ul {
   background-color: rgb(249, 202, 202);
   font-size: 1rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
