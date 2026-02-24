@@ -42,6 +42,22 @@ main {
         }
     }
 
+    .pagos{
+        h2{
+        background-color: $rosa;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: $fontp;
+        }
+        ul {
+        background-color: $rosa;
+        font-size: 1rem;
+        font-family: $fontp;
+        list-style: none;
+        padding-left: 1%;
+        }
+    }
+
     .parrafo4 {
         background-color: $rosa;
         text-align: center;
