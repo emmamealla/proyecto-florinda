@@ -363,6 +363,19 @@ main .pagos ul {
   list-style: none;
   padding-left: 1%;
 }
+main .pagos .especiales h2 {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .pagos .especiales ul {
+  background-color: rgb(249, 202, 202);
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  list-style: none;
+  padding-left: 1%;
+}
 main .parrafo4 {
   background-color: rgb(249, 202, 202);
   text-align: center;
@@ -411,6 +424,13 @@ a img.logoinstagram {
     font-size: 1.1rem;
   }
   main .pagos ul {
+    font-size: 1rem;
+    margin: 12px;
+  }
+  main .especiales h2 {
+    font-size: 1.1rem;
+  }
+  main .especiales ul {
     font-size: 1rem;
     margin: 12px;
   }
