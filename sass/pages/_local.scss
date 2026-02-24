@@ -44,6 +44,22 @@ main {
     object-fit: cover; 
 }
 
+.servicios {
+    p {
+        background-color: $rosa;
+        text-align: center;
+        font-size: 1.4rem;
+        font-family: $fontp;
+    }
+    ul {
+        background-color: $rosa;
+        font-size: 1.3rem;
+        font-family: $fontp;
+        list-style: none;
+        padding-left: 1%;
+        }
+    }
+
 }
 
 .redes {
@@ -94,6 +110,15 @@ main .parrafo2 {
     display: block;
 }
 
+main .servicios p {
+    font-size: 1.1rem;
+}
+
+main .servicios ul {
+    font-size: 1rem;
+    margin: 12px;
+}
+
 .redes a img.logowhatsapp {
     padding-left: 0%;
     width: 28px;
@@ -105,6 +130,7 @@ main .parrafo2 {
 
 .horarios {
     padding: 0 15px;
+    margin: 12px;
 }
 
 .horarios p {

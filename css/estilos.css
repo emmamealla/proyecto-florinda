@@ -191,6 +191,19 @@ main .local1 img {
   height: 350px;
   object-fit: cover;
 }
+main .servicios p {
+  background-color: rgb(249, 202, 202);
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .servicios ul {
+  background-color: rgb(249, 202, 202);
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  list-style: none;
+  padding-left: 1%;
+}
 
 .redes a img.logowhatsapp {
   width: 32px;
@@ -228,6 +241,13 @@ a img.logoinstagram {
     height: auto;
     display: block;
   }
+  main .servicios p {
+    font-size: 1.1rem;
+  }
+  main .servicios ul {
+    font-size: 1rem;
+    margin: 12px;
+  }
   .redes a img.logowhatsapp {
     padding-left: 0%;
     width: 28px;
@@ -237,6 +257,7 @@ a img.logoinstagram {
   }
   .horarios {
     padding: 0 15px;
+    margin: 12px;
   }
   .horarios p {
     font-size: 1rem;
