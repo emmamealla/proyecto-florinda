@@ -33,12 +33,6 @@ header h1 {
     color: #e5248e;
   }
 }
-header a {
-  color: #e5248e;
-  font-size: 1.5rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  margin: 10px;
-}
 header nav ul {
   list-style: none;
   padding: 0;
@@ -53,6 +47,9 @@ header nav a {
   font-size: 1.5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
 }
 header .logo {
   margin: 1%;
