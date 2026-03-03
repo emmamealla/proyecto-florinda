@@ -271,20 +271,6 @@ a img.logoinstagram {
     margin-bottom: 6px;
   }
 }
-@media (min-width: 481px) and (max-width: 1023px) {
-  main .horarios {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  main .mapa {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  .local1 img {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-}
 @media (min-width: 1024px) {
   main .local {
     grid-template-columns: repeat(2, 1fr);
@@ -496,24 +482,6 @@ a img.logoinstagram {
     padding-left: 0%;
   }
   main .info-envios p {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-}
-@media (min-width: 481px) and (max-width: 1023px) {
-  main .condiciones ul li {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  main .pagos ul li {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  main .especiales ul li {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  main .parrafo4 {
     margin-left: 3%;
     margin-right: 3%;
   }
