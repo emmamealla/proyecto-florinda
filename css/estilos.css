@@ -95,6 +95,8 @@ main .parrafo1 {
   text-align: center;
   font-size: 1.2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 main .parrafo5 {
   background-color: rgb(249, 202, 202);
@@ -267,6 +269,20 @@ a img.logoinstagram {
   .horarios p {
     font-size: 1rem;
     margin-bottom: 6px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  main .horarios {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  main .mapa {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .local1 img {
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
 @media (min-width: 1024px) {
@@ -480,6 +496,24 @@ a img.logoinstagram {
     padding-left: 0%;
   }
   main .info-envios p {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  main .condiciones ul li {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  main .pagos ul li {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  main .especiales ul li {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  main .parrafo4 {
     margin-left: 3%;
     margin-right: 3%;
   }

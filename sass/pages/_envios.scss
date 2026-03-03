@@ -180,3 +180,26 @@ main .info-envios p{
 }
 
 }
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    
+    main .condiciones ul li {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    main .pagos ul li {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    main .especiales ul li {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    main .parrafo4 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}

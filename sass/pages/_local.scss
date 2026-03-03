@@ -140,11 +140,34 @@ main .servicios ul {
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1023px) {
+    
+    main .horarios {
+    margin-left: 3%;
+    margin-right: 3%;
+    }
 
-    main .local {
+    main .mapa {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .local1 img {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    main {
+        .local {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-
 }
+}
+
+
+
