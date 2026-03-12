@@ -435,7 +435,7 @@ main .especiales ul {
   font-size: 1rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   list-style: none;
-  padding-left: 0%;
+  padding-left: 1%;
 }
 main .parrafo4 {
   background-color: rgb(249, 202, 202);
