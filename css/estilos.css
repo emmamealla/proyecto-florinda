@@ -435,7 +435,7 @@ main .especiales ul {
   font-size: 1rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   list-style: none;
-  padding-left: 1%;
+  padding-left: 0%;
 }
 main .parrafo4 {
   background-color: rgb(249, 202, 202);
@@ -520,10 +520,11 @@ a img.logoinstagram {
   }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
-  main .condiciones ul,
   main .pagos ul,
-  main .especiales ul {
-    padding: 0 3%;
+  main .especiales ul,
+  main .condiciones ul {
+    margin-left: 3%;
+    margin-right: 3%;
   }
   main .parrafo4 {
     margin-left: 3%;
