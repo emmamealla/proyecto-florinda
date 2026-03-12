@@ -15,17 +15,6 @@ img {
     height: auto;
 }
 
-.navbar-brand img {
-    max-width: 120px;
-    height: auto;
-}
-
-@media (max-width: 600px) {
-.navbar-brand img {
-    max-width: 90px;
-}
-}
-
 header {
     background-color: $rosahf;
     display: flex;
@@ -80,16 +69,15 @@ header {
     &:hover {
     text-decoration: underline;
     }
-
+    }
     }
 
-}
     .logo {
-        margin: 1%;
-        width: 100px;
+        width: 120px;
         height: auto;
+        margin: 1%;
         background-color: $rosa;
-    }
+}
 }
 
 main {
