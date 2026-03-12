@@ -97,8 +97,8 @@ main section.catalogo {
 
 main section.catalogo {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 }
