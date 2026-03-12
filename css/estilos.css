@@ -112,16 +112,6 @@ img {
   height: auto;
 }
 
-.navbar-brand img {
-  max-width: 120px;
-  height: auto;
-}
-
-@media (max-width: 600px) {
-  .navbar-brand img {
-    max-width: 90px;
-  }
-}
 main .parrafo1 {
   background-color: rgb(249, 202, 202);
   text-align: center;
