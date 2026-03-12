@@ -26,7 +26,8 @@ main {
         img {
         width: 100%;
         height: auto;
-        text-align: center;
+        display: block;
+        margin: auto;
         }
         }
     }
@@ -75,17 +76,16 @@ main section.productos article.productos h3 {
     margin-right: 5%;
 }
 
-main section.productos article.productos img {
+main section.catalogo article.productos img {
     width: 90%;
     height: auto;
-    text-align: center;
 }
 
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
 
-.catalogo {
+main section.catalogo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -95,7 +95,7 @@ main section.productos article.productos img {
 
 @media (min-width: 1024px) {
 
-.catalogo {
+main section.catalogo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
