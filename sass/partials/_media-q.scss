@@ -4,28 +4,40 @@
 
     header {
         flex-direction: row;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
         text-align: center;
 
         h1 {
-        font-size: 1.75rem;
-        padding-left: 1%;
-        margin-bottom: 5px;
+            font-size: 1.75rem;
+            padding-left: 1%;
+            margin-bottom: 5px;
+            width: 100%;
         }
 
         .logo {
-        width: 70px;
-        margin: 3px;
+            width: 70px;
+            margin: 5px auto;
         }
 
         nav {
-        a {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 1.125rem;
-        margin: 5px 0;
-        }
+
+            ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+            }
+
+            li {
+                margin: 4px 6px;
+            }
+
+            a {
+                font-size: 1.125rem;
+                display: block;
+                text-align: center;
+            }
+
         }
     }
 
@@ -35,39 +47,39 @@
 
     .productos {
         img {
-        width: 90%;
-        max-width: 300px;
-        margin: 10px auto;
-        display: block;
+            width: 90%;
+            max-width: 300px;
+            margin: 10px auto;
+            display: block;
         }
     }
 
-.footer {
-    text-align: center;
-}
+    .footer {
+        text-align: center;
+    }
 
-.footer p {
-    font-size: 1rem;
-    padding-left: 0;
-}
+    .footer p {
+        font-size: 1rem;
+        padding-left: 0;
+    }
 
-.footer a {
-    font-size: 0.95rem;
-}
+    .footer a {
+        font-size: 0.95rem;
+    }
 
-.footer .cursiva {
-    font-size: 0.8rem;
-    padding-left: 0;
-    text-align: center;
-    margin-top: 10px; 
-}
+    .footer .cursiva {
+        font-size: 0.8rem;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
 
-.footer .cursiva2 {
-    font-size: 0.8rem;
-    padding-left: 0;
-    text-align: center;
-    margin-top: 2px; 
-}
+    .footer .cursiva2 {
+        font-size: 0.8rem;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 2px;
+    }
 
 }
 
