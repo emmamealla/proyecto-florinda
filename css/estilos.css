@@ -308,7 +308,7 @@ main section.catalogo article.productos h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 main section.catalogo article.productos img {
-  width: 500px;
+  width: 100%;
   height: auto;
   text-align: center;
 }
@@ -355,7 +355,7 @@ a img.logoinstagram {
   .catalogo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 20px;
   }
 }
 @media (min-width: 1024px) {

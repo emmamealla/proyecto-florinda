@@ -24,7 +24,7 @@ main {
         }
 
         img {
-        width: 500px;
+        width: 100%;
         height: auto;
         text-align: center;
         }
@@ -88,7 +88,7 @@ main section.productos article.productos img {
 .catalogo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 20px;
 }
 
 }
