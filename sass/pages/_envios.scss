@@ -182,5 +182,17 @@ main .info-envios p{
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
-    
+    @media (min-width: 481px) and (max-width: 1023px) {
+
+    main .condiciones ul li,
+    main .pagos ul li,
+    main .especiales ul li {
+    margin: 3%;
+}
+
+    main .parrafo4 {
+    margin: 3%;
+}
+
+}
 }
