@@ -519,14 +519,14 @@ a img.logoinstagram {
     margin-right: 3%;
   }
 }
-@media (min-width: 481px) and (max-width: 1023px) and (min-width: 481px) and (max-width: 1023px) {
-  main .condiciones ul li,
-  main .pagos ul li,
-  main .especiales ul li {
-    margin: 3%;
+@media (min-width: 481px) and (max-width: 1023px) {
+  main .condiciones h2,
+  main .pagos h2,
+  main .especiales h2 {
+    margin: 0 3%;
   }
   main .parrafo4 {
-    margin: 3%;
+    margin: 0 3%;
   }
 }
 @media (max-width: 480px) {
