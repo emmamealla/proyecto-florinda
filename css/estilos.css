@@ -583,10 +583,5 @@ a img.logoinstagram {
     margin-top: 2px;
   }
 }
-@media (max-width: 600px) {
-  header .logo {
-    width: 90px;
-  }
-}
 
 /*# sourceMappingURL=estilos.css.map */
