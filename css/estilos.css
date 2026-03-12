@@ -90,6 +90,19 @@ main {
   line-height: 1.2;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 main .parrafo1 {
   background-color: rgb(249, 202, 202);
   text-align: center;
@@ -98,45 +111,27 @@ main .parrafo1 {
   padding-left: 1%;
   padding-right: 1%;
 }
-main .parrafo5 {
-  background-color: rgb(249, 202, 202);
-  text-align: center;
-  font-size: 1rem;
-  margin-left: 3%;
-  margin-right: 3%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-main .parrafo6 {
-  background-color: rgb(249, 202, 202);
-  text-align: center;
-  font-size: 1rem;
-  margin-left: 3%;
-  margin-right: 3%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-main .parrafo7 {
-  background-color: rgb(249, 202, 202);
-  text-align: center;
-  font-size: 1rem;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 2%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
+main .parrafo5,
+main .parrafo6,
+main .parrafo7,
 main .parrafo8 {
   background-color: rgb(249, 202, 202);
   text-align: center;
   font-size: 1rem;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin: 0 3%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .parrafo7 {
+  margin-top: 2%;
 }
 main .carousel {
   background-color: rgb(249, 202, 202);
+  width: 100%;
 }
 main .carousel .carousel-item img {
+  display: block;
   margin: 0 auto;
-  justify-content: center;
+  max-width: 100%;
 }
 main .carousel4 {
   display: none;
@@ -159,7 +154,13 @@ main .redes a .icono, main .redes a .logoinstagram, main .redes a .logowhatsapp 
     display: block;
     width: 90%;
     height: auto;
-    margin: 0% auto;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  main .carousel4 {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 main .parrafo2 {
