@@ -271,6 +271,17 @@ a img.logoinstagram {
     margin-bottom: 6px;
   }
 }
+@media (min-width: 481px) and (max-width: 1023px) {
+  .mapa {
+    margin: 3%;
+  }
+  .local1 img {
+    margin: 3%;
+  }
+  .horarios {
+    margin: 3%;
+  }
+}
 @media (min-width: 1024px) {
   main .local {
     grid-template-columns: repeat(2, 1fr);
