@@ -84,7 +84,13 @@ main section.productos article.productos img {
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
-    
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
 }
 
 @media (min-width: 1024px) {
